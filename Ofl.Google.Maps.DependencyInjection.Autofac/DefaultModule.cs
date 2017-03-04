@@ -11,7 +11,7 @@ namespace Ofl.Google.Maps.DependencyInjection.Autofac
             if (builder == null) throw new ArgumentNullException(nameof(builder));
 
             // Bind.
-            builder.RegisterType<IMapsClient>().As<IMapsClient>();
+            builder.RegisterType<MapsClient>().As<IMapsClient>();
         }
     }
 }

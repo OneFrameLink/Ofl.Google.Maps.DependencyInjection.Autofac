@@ -1,9 +1,14 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ofl.Google.Maps.DependencyInjection.Autofac", "src\Ofl.Google.Maps.DependencyInjection.Autofac\Ofl.Google.Maps.DependencyInjection.Autofac.csproj", "{016DF9F4-8827-4671-8BEF-C390A6A88447}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Google.Maps.DependencyInjection.Autofac", "src\Ofl.Google.Maps.DependencyInjection.Autofac\Ofl.Google.Maps.DependencyInjection.Autofac.csproj", "{016DF9F4-8827-4671-8BEF-C390A6A88447}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AECF22DB-8868-4E1B-8237-A77107C7100F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E1FF2406-00C1-46D0-A426-FE283C89DF94}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Google.Maps.DependencyInjection.Autofac.Tests", "test\Ofl.Google.Maps.DependencyInjection.Autofac.Tests\Ofl.Google.Maps.DependencyInjection.Autofac.Tests.csproj", "{ACE77F6E-153D-419A-938B-D24C2E0A9B65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +20,16 @@ Global
 		{016DF9F4-8827-4671-8BEF-C390A6A88447}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{016DF9F4-8827-4671-8BEF-C390A6A88447}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{016DF9F4-8827-4671-8BEF-C390A6A88447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE77F6E-153D-419A-938B-D24C2E0A9B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE77F6E-153D-419A-938B-D24C2E0A9B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE77F6E-153D-419A-938B-D24C2E0A9B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE77F6E-153D-419A-938B-D24C2E0A9B65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{016DF9F4-8827-4671-8BEF-C390A6A88447} = {AECF22DB-8868-4E1B-8237-A77107C7100F}
+		{ACE77F6E-153D-419A-938B-D24C2E0A9B65} = {E1FF2406-00C1-46D0-A426-FE283C89DF94}
 	EndGlobalSection
 EndGlobal
